@@ -1,0 +1,2 @@
+2022-08-09:
+ALTER TABLE `mdl_forum_discussions` DROP COLUMN `isarchived`;

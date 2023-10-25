@@ -1,0 +1,17 @@
+/* Added by Tai */
+body {padding-top:90px;}
+
+.block, aside, #fontpage-promotion-div, header #top-menu, header #navbar-td3-4, header #navbar-lan-top, header .btn-navbar, footer, #page-navbar .breadcrumb-button {display:none !important;}
+.navbar-fixed-top {position:absolute;}
+.navbar-header {text-align:left;}
+section#region-main {float:none; width:100%;}
+.row-fluid .span9 {width:100%;}
+#navbartable3 {max-width:none;}
+.breadcrumb-nav {margin:0; margin-top:10px;}
+.breadcrumb {padding:0;}
+
+@media print{
+	#navbartable3 {margin-left:30px;}
+	body{padding-top:110px;}
+	thead {display: table-header-group;}
+}

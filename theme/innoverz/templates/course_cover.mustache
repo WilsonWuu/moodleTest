@@ -1,0 +1,36 @@
+    {{>theme_innoverz/inc_start}}
+
+    <div id="page" class="container-fluid d-print-block">
+        {{{ output.courseheaderimage }}}
+
+        <div id="page-content" class="row pb-3 d-print-block">
+            <div id="region-main-box" class="col-12">
+
+                {{#hasregionmainsettingsmenu}}
+                    <div id="region-main-settings-menu" class="d-print-none">
+                        <div> {{{ output.region_main_settings_menu }}} </div>
+                    </div>
+                {{/hasregionmainsettingsmenu}}
+                <section id="region-main">
+
+                    {{{ output.full_header }}}
+
+                    <div class="card">
+                        <div class="card-body">
+                            {{{ output.moove_course_header }}}
+
+                            {{#hasregionmainsettingsmenu}}
+                                <div class="region_main_settings_menu_proxy"></div>
+                            {{/hasregionmainsettingsmenu}}
+                            {{{ output.course_content_header }}}
+                            {{{ output.main_content }}}
+                            {{{ output.activity_navigation }}}
+                            {{{ output.course_content_footer }}}
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    {{>theme_innoverz/inc_end}}

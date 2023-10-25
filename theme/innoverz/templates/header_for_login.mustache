@@ -1,0 +1,26 @@
+<nav class="fixed-top navbar navbar-light navbar-expand moodle-has-zindex">
+    {{#hasdrawertoggle}}
+        <div data-region="drawer-toggle" class="d-inline-block mr-3 drawer-toggle">
+            <button aria-expanded="{{#navdraweropen}}true{{/navdraweropen}}{{^navdraweropen}}false{{/navdraweropen}}" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="slicon-menu"></i><span class="sr-only">{{#str}}sidepanel, core{{/str}}</span></button>
+        </div>
+    {{/hasdrawertoggle}}
+    <div class="navbar_inner">
+        <a href="{{{ config.wwwroot }}}" class="navbar-brand has-logo d-sm-inline">
+            <img src="{{logourl}}" title="{{sitename}}" alt="{{sitename}}"/>
+        </a>
+        <ul class="nav navbar-nav ml-auto">
+            <div class="d-none d-lg-block">
+                {{{ output.search_box }}}
+            </div>
+
+            <li class="nav-item lang-menu">
+                {{{ output.render_lang_menu }}}
+            </li>
+
+            {{{ output.navbar_plugin_output }}}
+
+            {{{ output.user_menu }}}
+        </ul>
+    </div>
+
+</nav>

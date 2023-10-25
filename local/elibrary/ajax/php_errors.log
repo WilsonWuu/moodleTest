@@ -1,0 +1,48 @@
+[14-Aug-2015 12:53:01 Asia/Hong_Kong] Default exception handler: Invalid user Debug: SELECT id FROM {user} WHERE id = ? AND deleted = ?
+[array (
+  0 => 95,
+  1 => 0,
+)]
+Error code: invaliduser
+* line 1451 of \lib\dml\moodle_database.php: dml_missing_record_exception thrown
+* line 1427 of \lib\dml\moodle_database.php: call to moodle_database->get_record_select()
+* line 6488 of \lib\accesslib.php: call to moodle_database->get_record()
+* line 978 of \elibrary\lib.php: call to context_user::instance()
+* line 26 of \elibrary\ajax\insert_resource_to_loan_list.php: call to check_is_unlimited_loan_quota()
+
+[14-Aug-2015 12:53:06 Asia/Hong_Kong] Default exception handler: Invalid user Debug: SELECT id FROM {user} WHERE id = ? AND deleted = ?
+[array (
+  0 => 95,
+  1 => 0,
+)]
+Error code: invaliduser
+* line 1451 of \lib\dml\moodle_database.php: dml_missing_record_exception thrown
+* line 1427 of \lib\dml\moodle_database.php: call to moodle_database->get_record_select()
+* line 6488 of \lib\accesslib.php: call to moodle_database->get_record()
+* line 978 of \elibrary\lib.php: call to context_user::instance()
+* line 26 of \elibrary\ajax\insert_resource_to_loan_list.php: call to check_is_unlimited_loan_quota()
+
+[14-Aug-2015 12:53:09 Asia/Hong_Kong] Default exception handler: Invalid user Debug: SELECT id FROM {user} WHERE id = ? AND deleted = ?
+[array (
+  0 => 95,
+  1 => 0,
+)]
+Error code: invaliduser
+* line 1451 of \lib\dml\moodle_database.php: dml_missing_record_exception thrown
+* line 1427 of \lib\dml\moodle_database.php: call to moodle_database->get_record_select()
+* line 6488 of \lib\accesslib.php: call to moodle_database->get_record()
+* line 978 of \elibrary\lib.php: call to context_user::instance()
+* line 26 of \elibrary\ajax\insert_resource_to_loan_list.php: call to check_is_unlimited_loan_quota()
+
+[14-Aug-2015 12:53:28 Asia/Hong_Kong] Default exception handler: Invalid user Debug: SELECT id FROM {user} WHERE id = ? AND deleted = ?
+[array (
+  0 => 95,
+  1 => 0,
+)]
+Error code: invaliduser
+* line 1451 of \lib\dml\moodle_database.php: dml_missing_record_exception thrown
+* line 1427 of \lib\dml\moodle_database.php: call to moodle_database->get_record_select()
+* line 6488 of \lib\accesslib.php: call to moodle_database->get_record()
+* line 978 of \elibrary\lib.php: call to context_user::instance()
+* line 26 of \elibrary\ajax\insert_resource_to_loan_list.php: call to check_is_unlimited_loan_quota()
+

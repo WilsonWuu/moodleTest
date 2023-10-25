@@ -1,0 +1,1 @@
+<?php echo $OUTPUT->main_content() ?>

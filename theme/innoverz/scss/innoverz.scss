@@ -1,0 +1,1027 @@
+/* stylelint-disable declaration-no-important  */
+
+nav.navbar ul.navbar-nav {
+    .moove-search-input,
+    .lang-menu .nav-link,
+    .popover-region div.popover-region-toggle {
+        padding-top: 1px;
+    }
+    .popover-region a.popover-region-toggle {
+        padding-top: 0;
+    }
+    i {
+        line-height: 70px;
+    }
+}
+#page-login-signup {
+    .lang-menu,
+    #page-content .text-center {
+        display: none !important;
+    }
+    .navbar_inner {
+        width: 100%;
+        display: flex;
+        flex: 0 0 66.6666666667%;
+        max-width: 66.6666666667%;
+        margin: 0 auto;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+#page-login-index.moove-login {
+    .row {
+        display: block;
+        margin: 0 auto;
+    }
+    .navbar_inner {
+        margin: 0 auto;
+        width: 1000px;
+        .navbar-nav {
+            float: right;
+            display: block;
+            flex: none;
+        }
+    }
+    #page-wrapper #page {
+        @media (max-width: 767px) {
+            background-image: none !important;
+            background-color: #eee;
+            padding-top: 70px;
+        }
+        #page-content {
+            margin-top: 50px;
+            @media (max-width: 767px) {
+                margin: 0 !important;
+            }
+            .justify-content-center {
+                @media (max-width: 767px) {
+                    margin: 0 !important;
+                }
+
+                > div {
+                    @media (max-width: 767px) {
+                        padding: 0;
+                    }
+                    .loginpanel {
+                        background: none;
+                        .card-block {
+                            background-image: url([[pix:theme|login_box_bg]]);
+                            background-repeat: no-repeat;
+                            width: 1000px;
+                            height: 556px;
+                            @media (max-width: 767px) {
+                                width: 100%;
+                                height: auto;
+                                background: none;
+                            }
+                            .sd_sublogo {
+                                display: none;
+                                @media (max-width: 767px) {
+                                    width: 100%;
+                                    display: block;
+                                }
+                            }
+                            .instructions {
+                                background: none;
+                                float: left;
+                                * {
+                                    display: none;
+                                }
+                                @media (max-width: 767px) {
+                                    display: none;
+                                }
+                            }
+                            .form {
+                                float: left;
+                                width: 365px;
+                                padding: 20px;
+                                margin-top: 0;
+                                margin-left: 30px;
+                                @media (max-width: 767px) {
+                                    float: none;
+                                    margin: 0 auto;
+                                }
+                                .btn_set {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    #loginbtn,
+                                    #regbtn {
+                                        height: 30px;
+                                        padding: 0;
+                                        line-height: 28px;
+                                    }
+                                    #loginbtn {
+                                        width: 35%;
+                                    }
+                                    #regbtn {
+                                        width: 60%;
+                                    }
+                                }
+                            }
+                            .forgetpass,
+                            .login_description_div {
+                                margin-top: 0.5rem !important;
+                            }
+                            .forgetpass,
+                            .login_enquiry_contact {
+                                margin-bottom: 0.5rem !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#page-admin-local-admintool-uploaduser-index #upload_form2 {
+    #id_settingsheader,
+    #id_defaultheader,
+    #id_category_1,
+    #id_category_2,
+    .collapsible-actions,
+    .fdescription {
+        display: none;
+    }
+}
+
+#page-login-signup {
+    #fitem_id_recaptcha_element {
+        border: 1px solid #d7dfe3;
+        padding: 0.5rem;
+        margin: 15px 0 0 0;
+
+        //security question alignment
+        > .col-md-3 {
+            padding: 0;
+
+            > .float-sm-right.text-nowrap {
+                float: none !important;
+                margin-left: 5px;
+            }
+
+            > label.col-form-label.d-inline {
+                float: left;
+                padding: 0;
+            }
+        }
+    }
+}
+
+.mainlibrary,
+.path-local-elibrary {
+    div.tablecell {
+        display: table-cell;
+        vertical-align: top;
+    }
+
+    th {
+        vertical-align: middle !important;
+    }
+
+    /*This enables library tables to be scrollable horizontally*/
+    .table_wrap {
+        overflow-x: auto;
+        table.generaltable {
+            th,
+            td {
+                min-width: 100px;
+            }
+        }
+    }
+
+    > .resource_detail_info {
+        > h2 {
+            &:first-child {
+                margin-top: 0;
+                margin-bottom: 25px;
+                line-height: 18px !important;
+            }
+        }
+    }
+
+    > .subject_list {
+        > h2 {
+            &:first-child {
+                margin-top: 0;
+                margin-bottom: 25px;
+                line-height: 18px !important;
+            }
+        }
+    }
+
+    > .class_list {
+        > h2 {
+            &:first-child {
+                margin-top: 0;
+                margin-bottom: 25px;
+                line-height: 18px !important;
+            }
+        }
+    }
+
+    > .currency_list {
+        > h2 {
+            &:first-child {
+                margin-top: 0;
+                margin-bottom: 25px;
+                line-height: 18px !important;
+            }
+        }
+    }
+
+    > .locate_list {
+        > h2 {
+            &:first-child {
+                margin-top: 0;
+                margin-bottom: 25px;
+                line-height: 18px !important;
+            }
+        }
+    }
+
+    .search_resource {
+        .search_fields_item {
+            float: left;
+            margin: 5px 0;
+
+            label {
+                display: inline-block;
+                font-weight: bold;
+                width: 119px;
+                line-height: 30px;
+                margin: 0;
+                vertical-align: top;
+            }
+        }
+
+        .search_fields_padding {
+            float: left;
+            width: 20px;
+            height: 1px;
+        }
+
+        .contentsubbox {
+            /* padding: 20px; */
+            h2 {
+                margin-top: 0;
+            }
+        }
+
+        .contentbottom {
+            /* padding: 15px 15px 5px; */
+            margin: 10px 0 15px;
+        }
+    }
+
+    .resource_detail_copy_list {
+        .contentsubbox {
+            /* padding: 20px; */
+            .generaltable {
+                margin: 0;
+            }
+        }
+    }
+
+    .popular_resources {
+        .book_img {
+            height: 157px;
+
+            img {
+                max-width: 98px;
+                max-height: 137px;
+            }
+        }
+
+        .book {
+            display: inline-block;
+            width: 140px;
+            margin-right: 10px;
+            vertical-align: top;
+            margin-bottom: 30px;
+
+            a {
+                color: #000;
+            }
+        }
+
+        .contentsubbox {
+            padding-bottom: 5px;
+        }
+    }
+
+    .contentblock {
+        margin-bottom: 20px;
+    }
+
+    .contentbottom {
+        margin-top: 10px;
+    }
+
+    .resource_detail_info {
+        .coverimage {
+            padding-right: 30px;
+
+            img {
+                max-width: 192px;
+            }
+        }
+
+        h3 {
+            font-size: 1.3em;
+            line-height: 1.3em;
+            margin: 0;
+            margin-bottom: 10px;
+            padding: 0;
+            font-weight: bold;
+        }
+    }
+
+    .resource_detail_reserve {
+        /* .contentsubbox {
+			padding: 15px 20px;
+		} */
+        .contentbottom {
+            /* padding: 10px 20px; */
+            input[type="submit"] {
+                margin: 0;
+            }
+        }
+    }
+
+    .resource_detail_review_list {
+        .contentsubbox {
+            /* padding: 20px; */
+
+            .generaltable {
+                margin: 0;
+            }
+        }
+
+        #post_review_table {
+            tr.r0 {
+                td.c0 {
+                    width: 100px;
+
+                    label {
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            #review_content {
+                width: 100%;
+                max-width: 400px;
+                height: 100px;
+            }
+        }
+
+        .contentbottom {
+            input[type="submit"] {
+                margin: 2px;
+            }
+        }
+    }
+
+    .resource_detail_share {
+        .contentsubbox {
+            /* padding: 20px; */
+
+            .generaltable {
+                margin: 0;
+            }
+        }
+
+        th {
+            width: 120px;
+            text-align: left !important;
+
+            label {
+                font-weight: bold;
+                margin-top: 10px;
+            }
+        }
+
+        .contentbottom {
+            /* padding: 10px 20px; */
+
+            input[type="submit"] {
+                margin: 0;
+            }
+        }
+    }
+
+    .select_borrower {
+        th {
+            text-align: left !important;
+            padding: 8px;
+        }
+
+        td {
+            label {
+                margin: 0;
+
+                span {
+                    font-weight: bold;
+                    margin-right: 7px;
+                }
+
+                input[type="text"] {
+                    margin: 10px 0;
+                }
+            }
+        }
+
+        input[type="submit"] {
+            margin-bottom: 0;
+        }
+
+        input[type="button"] {
+            margin-bottom: 0;
+        }
+    }
+
+    .enter_resource_barcode {
+        th {
+            text-align: left !important;
+            padding: 8px;
+        }
+
+        td {
+            label {
+                margin: 0;
+
+                span {
+                    font-weight: bold;
+                    margin-right: 7px;
+                }
+
+                input[type="text"] {
+                    margin: 10px 0;
+                }
+            }
+        }
+
+        input[type="submit"] {
+            margin-bottom: 0;
+        }
+
+        input[type="button"] {
+            margin-bottom: 0;
+        }
+
+        #barcode_enter_result {
+            font-size: 0.9em;
+            margin-left: 10px;
+            color: blue;
+        }
+    }
+
+    select#status_selector {
+        margin: 0;
+    }
+
+    .userprofile dl.list {
+        dt {
+            float: left;
+            width: 160px;
+            overflow: hidden;
+            clear: left;
+            text-align: right;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin-right: 10px;
+            padding-bottom: 10px;
+        }
+
+        dd {
+            display: table-cell;
+            padding-bottom: 10px;
+        }
+    }
+
+    #region-main {
+        overflow-x: hidden;
+        > div {
+            > .mainlibrary {
+                > div {
+                    > h2.floatleft {
+                        &:first-child {
+                            + {
+                                .newrecordwidget {
+                                    line-height: 43px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .loan_resource_select_borrower {
+        .mform {
+            .fdescription.required {
+                display: none;
+            }
+        }
+    }
+
+    /* .block_elibrary_new_resources {
+	.book {
+		display: inline-block;
+		width: 100%;
+		padding-bottom: 14px;
+		margin-bottom: 14px;
+		border-bottom: 1px solid #F0F0F0;
+	}
+	.book_img {
+		float: left;
+		width: 60px;
+		margin-right: 15px;
+		img {
+			max-width: 59px;
+			max-height: 82px;
+		}
+	}*/
+}
+
+.mform {
+    img.coverimage {
+        max-height: 270px;
+    }
+}
+
+.clear {
+    clear: both;
+}
+
+@media screen and (min-width: 1200px) {
+    .loan_resource_select_borrower {
+        .mform {
+            .fitem {
+                div.fitemtitle {
+                    width: 310px;
+                }
+
+                /* .felement {
+                    margin-left: 335px;
+                } */
+            }
+        }
+    }
+}
+
+// block_localnavigation (cloned from block_navigation)
+.block.block_localnavigation .block_tree ul,
+.block_settings .block_tree ul {
+    margin-left: 0;
+}
+
+// Show expand collapse with font-awesome.
+.block_localnavigation .block_tree [aria-expanded="true"],
+.block_localnavigation .block_tree [aria-expanded="true"].emptybranch,
+.block_localnavigation .block_tree [aria-expanded="false"] {
+    background-image: none;
+}
+
+.block_localnavigation .block_tree [aria-expanded="true"]:before {
+    content: $fa-var-angle-down;
+    margin-right: 0;
+    @include fa-icon();
+    font-size: 16px;
+    width: 16px;
+}
+
+.block_localnavigation .block_tree [aria-expanded="false"]:before {
+    content: $fa-var-angle-right;
+    margin-right: 0;
+    @include fa-icon();
+    font-size: 16px;
+    width: 16px;
+}
+
+.dir-rtl {
+    .block_localnavigation .block_tree [aria-expanded="false"]:before {
+        content: $fa-var-angle-left;
+    }
+}
+
+.block_localnavigation .block_tree p.hasicon {
+    text-indent: -3px;
+
+    .icon {
+        margin-right: 2px;
+    }
+}
+
+.navigation_list_table.generaltable th,
+.navigation_list_table.generaltable td {
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+}
+
+.block_localnavigation .footer {
+    margin-top: 15px;
+}
+
+#page-mod-resource-mod,
+#page-mod-folder-mod {
+    #fgroup_id_buttonar {
+        text-align: center;
+    }
+    .fitem {
+        margin-bottom: 15px;
+    }
+}
+#page-mod-folder-view {
+    .activity-navigation {
+        display: none;
+    }
+}
+
+#page-local-videos-view {
+    .activity-navigation {
+        display: none;
+    }
+    .btn_download_transcript {
+        padding-left: 10px;
+    }
+}
+#page-local-videos-searchvideo {
+    .videothumbnail {
+        max-width: 172px;
+    }
+}
+.reportmain {
+    table {
+        width: 100%;
+        th,
+        td {
+            text-align: left;
+        }
+    }
+    .fdescription {
+        display: none;
+    }
+    .topspacebox {
+        width: 10px;
+        display: inline-block;
+    }
+    h3 {
+        margin-top: 10px;
+    }
+}
+#front-center-block .slider {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#page-site-index #mooveslideshow {
+    margin: 0 auto !important;
+    .carousel-indicators {
+        /* bottom: 0 !important; */
+        display: none;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 900px;
+        height: 300px;
+        background: #658b00;
+
+        @media (max-width: 1270px) {
+            width: 100%;
+            height: auto;
+        }
+        .carousel-item {
+            transition: opacity 0.5s ease-in-out;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+            float: none;
+            display: none;
+            &.active {
+                display: block;
+            }
+            @media (max-width: 1270px) {
+                position: relative;
+                max-height: none;
+            }
+            > img {
+                width: auto !important;
+                max-height: 100%;
+                @media (max-width: 1270px) {
+                    width: 100% !important;
+                    max-height: none;
+                }
+            }
+            .carousel-caption {
+                right: 0;
+                left: auto;
+                width: 450px;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                max-width: none;
+                @media (max-width: 1270px) {
+                    position: relative;
+                    width: 100%;
+                }
+                h2.title {
+                    background: none;
+                    font-size: 1.7em;
+                    margin: 0;
+                }
+                .caption {
+                    background: none;
+                    font-size: 1em;
+                    color: white;
+                    margin: 0;
+                    padding-top: 0;
+                    a {
+                        text-decoration: underline;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    /*
+  Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
+  CSS from:       http://codepen.io/transportedman/pen/NPWRGq
+  and:            http://stackoverflow.com/questions/18548731/bootstrap-3-carousel-fading-to-new-slide-instead-of-sliding-to-new-slide
+  Inspired from:  http://codepen.io/Rowno/pen/Afykb 
+*/
+    &.carousel-fade .carousel-inner .carousel-item {
+        opacity: 0;
+        transition-property: opacity;
+    }
+
+    &.carousel-fade .carousel-inner .active {
+        opacity: 1;
+    }
+    c &.carousel-fade .carousel-inner .active.left,
+    &.carousel-fade .carousel-inner .active.right {
+        left: 0;
+        opacity: 0;
+        z-index: 1;
+    }
+
+    &.carousel-fade .carousel-inner .next.left,
+    &.carousel-fade .carousel-inner .prev.right {
+        opacity: 1;
+    }
+
+    &.carousel-fade .carousel-control {
+        z-index: 2;
+    }
+
+    /*
+    WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+    Need to override the 3.3 new styles for modern browsers & apply opacity
+  */
+    @media all and (transform-3d), (-webkit-transform-3d) {
+        &.carousel-fade .carousel-inner > .carousel-item.next,
+        &.carousel-fade .carousel-inner > .carousel-item.active.right {
+            opacity: 0;
+            transform: translate3d(0, 0, 0);
+            transition-duration: 0.3;
+        }
+        &.carousel-fade .carousel-inner > .carousel-item.prev,
+        &.carousel-fade .carousel-inner > .carousel-item.active.left {
+            opacity: 0;
+            transform: translate3d(0, 0, 0);
+        }
+        &.carousel-fade .carousel-inner > .carousel-item.next.left,
+        &.carousel-fade .carousel-inner > .carousel-item.prev.right,
+        &.carousel-fade .carousel-inner > .carousel-item.active {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+}
+
+#page-innoverz-login-activate_user {
+    margin-left: 0;
+    nav.navbar {
+        position: relative;
+        top: auto;
+        .navbar-nav {
+            display: none;
+        }
+    }
+    #region-main {
+        overflow: hidden;
+    }
+    .plugins_standard_footer_html {
+        display: none;
+    }
+}
+
+#page-footer {
+    .container-fluid {
+        min-height: 30px;
+        line-height: 30px;
+        #course-footer {
+            display: none;
+        }
+        > p {
+            float: left;
+            margin: 0 0 0 15px;
+        }
+        #bottom_w3c_link {
+            float: right;
+        }
+    }
+}
+
+#page-site-index {
+    .sitetopic {
+        display: none;
+    }
+}
+
+#nav-drawer .list-group .list-group-item[data-key="resourcekits"] a:before {
+    content: "\e03f";
+}
+
+#nav-drawer .list-group .list-group-item[data-key="resourcekits1"] a:before {
+    content: "\e04b";
+}
+
+#nav-drawer .list-group .list-group-item[data-key="courses"] a:before {
+    font-family: 'FontAwesome';
+    content: "\f109";
+}
+
+#nav-drawer .list-group .list-group-item[data-key="courses1"] a:before {
+    font-family: 'FontAwesome';
+    content: "\f109";
+}
+
+#nav-drawer .list-group .list-group-item[data-key="courses2"] a:before {
+    font-family: '#{$simple-line-font-family}';
+    content: "\e001";
+}
+
+#nav-drawer .list-group .list-group-item[data-key="library"] a:before {
+    content: "\e04c";
+}
+
+#nav-drawer .list-group .list-group-item[data-key="library1"] a:before {
+    font-family: 'FontAwesome';
+    content: "\f002";
+}
+
+#nav-drawer .list-group .list-group-item[data-key="library2"] a:before {
+    content: "\e619";
+}
+
+#nav-drawer .list-group .list-group-item[data-key="library3"] a:before {
+    font-family: 'FontAwesome';
+    content: "\f097";
+}
+
+#nav-drawer .list-group .list-group-item[data-key="library4"] a:before {
+    content: "\e060";
+}
+
+#nav-drawer .list-group .list-group-item[data-key="ebook"] a:before {
+    content: "\e05a";
+}
+
+#nav-drawer .list-group .list-group-item[data-key="local_interrai_view"] a:before {
+    content: "\e013";
+}
+
+#nav-drawer .list-group .list-group-item[data-key="library_admin"] a:before {
+    content: "\e09a";
+}
+
+//disable option for "Make a copy of the file" during file upload
+.fp-linktype-2 {
+    display: none;
+}
+
+#courselist-viewtype {
+    text-align: right;
+    margin-top: 10px;
+    label {
+        margin-left: 15px;
+        cursor: pointer;
+        span {
+            margin-left: 5px;
+        }
+    }
+}
+
+.local_course_index .courses .paging-morelink {
+    display: none;
+}
+
+.local_editvideo {
+    .fitem_fadvcheckbox,
+    .fitem_fcheckbox {
+        .fitemtitle {
+            display: inline-block;
+            margin-left: 10px;
+        }
+        .felement {
+            float: left;
+        }
+    }
+    #fgroup_id_isnonconformance {
+        .felement label {
+            margin-left: 10px;
+        }
+    }
+}
+
+body.drawer-open-right #sidepreopen-control {
+    z-index: 100;
+}
+
+body#page-course-index-category.local_course_index .course_category_tree {
+    h3.coursename {
+        font-size: 0.9375rem;
+    }
+
+    .coursebox {
+        > .content > .courseimage {
+            display: none;
+        }
+        > .content > .summary {
+            width: 100%;
+            padding-left: 21px;
+        }
+        > .info > .coursename {
+            width: 90%;
+            .aalink img.course_img {
+                width: 120px;
+                height: auto;
+                float: left;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+body.role-ir_trainer,
+body.role-ir_trainee,
+body.role-ir_assessor {
+    ul.navbar-nav.d-none.d-md-flex.custom-menus,
+    #nav-drawer li,
+    #mooveslideshow,
+    #site-news-forum,
+    .activity-navigation,
+    #top-footer,
+    #page-footer a,
+    #themesettings-control,
+    .usermenu a:nth-child(3),
+    .usermenu a:nth-child(5),
+    .usermenu a:nth-child(6),
+    .usermenu a:nth-child(7),
+    .usermenu .dropdown-divider:nth-child(2),
+    section.node_category.card.d-inline-block.w-100.mb-3:nth-child(2),
+    section.node_category.card.d-inline-block.w-100.mb-3:nth-child(3),
+    section.node_category.card.d-inline-block.w-100.mb-3:nth-child(4),
+    section.node_category.card.d-inline-block.w-100.mb-3:nth-child(5),
+    #myTab .nav-item:nth-child(1),
+    #mypublic-tab #cursos,
+    .page-context-header {
+        display: none !important;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .user-card .card-footer {
+        text-align: center;
+    }
+
+    #nav-drawer li[data-key="local_interrai_view"] {
+        display: block !important;
+    }
+    #nav-drawer-footer {
+        background: #272c33;
+    }
+}
+
+body#page-login-change_password {
+    .continuebutton {
+        display: none;
+    }
+}
+
+.uat-elc-swd-gov-hk,
+.elc-swd-gov-hk {
+    .notifytiny.debuggingmessage {
+        display: none;
+    }
+}
+
+/* stylelint-enable */

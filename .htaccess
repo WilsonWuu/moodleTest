@@ -1,0 +1,9 @@
+Header set X-Frame-Options SAMEORIGIN
+
+
+#RewriteEngine on
+#RewriteRule "^(.*/)?\.git/" - [F,L]
+
+#RedirectMatch 404 /\.git
+
+Options -Indexes

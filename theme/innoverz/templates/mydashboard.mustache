@@ -1,0 +1,34 @@
+    {{>theme_innoverz/inc_start}}
+
+    <div id="page" class="container-fluid d-print-block">
+        {{#canviewadmininfos}}
+            {{>theme_moove/mydashboard_admin}}
+        {{/canviewadmininfos}}
+        {{^canviewadmininfos}}
+            {{{ output.full_header }}}
+        {{/canviewadmininfos}}
+
+        <div id="page-content" class="row pb-3 d-print-block">
+            <div id="region-main-box" class="col-12">
+                {{#hasregionmainsettingsmenu}}
+                <div id="region-main-settings-menu" class="hidden-print">
+                    <div> {{{ output.region_main_settings_menu }}} </div>
+                </div>
+                {{/hasregionmainsettingsmenu}}
+                <section id="region-main">
+                    <div class="card mymaincontent">
+                        <div class="card-body">
+                            {{#hasregionmainsettingsmenu}}
+                                <div class="region_main_settings_menu_proxy"></div>
+                            {{/hasregionmainsettingsmenu}}
+                            {{{ output.course_content_header }}}
+                            {{{ output.main_content }}}
+                            {{{ output.course_content_footer }}}
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    {{>theme_innoverz/inc_end}}

@@ -1,0 +1,49 @@
+@page {
+    margin: 0;
+}
+
+form.searchform,
+#page-navbar,
+#printrptbtnblock,
+#reportsortnameblock,
+#sidepreopen-control,
+#sidepre-blocks,
+#page-header,
+#accessibilitybar,
+.nav,
+.custom-menus,
+#nav-drawer,
+#nav-drawer-footer,
+.drawer-toggle,
+#top-footer, footer {
+    display: none !important;
+}
+
+#page {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.navbar {
+    box-shadow: none !important;
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    display: block;
+    margin-top: 10px !important;
+}
+
+#page-content table {
+    width: 100%;
+}
+
+body {
+    background: white;
+    margin-left: 0;
+    padding-top: 0;
+    height: auto;
+}
+
+.card {
+    border: 0;
+}
